@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <meta charset="utf-8"> 
+        <title>look8ma</title>
+<head> <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+<style>
+  .container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+  }
+  .container::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("베.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .contact {
+  background-color: lightblue;
+  text-align: center;
+}
+  </style>
+
+</head>
+
+    <body>
+        <div class="container">
+        <!-- header를 통해 최상단에 페이지별 키를 만들었습니다. -->
+          <header>
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation" class="active"><a href="2.html">introduce</a></li>
+                <li role="presentation"><a href="3.html">Hobby</a></li>
+            </ul>
+        </header>
+          <br>
+          <!-- article로 본문 부분구분 -->
+        <article>
+          <p> 저는 정보통신공학전공 </p>
+          <p> 17학번 <strong> 임채호입니다. </strong> </p> 
+          <br>
+          <br>
+        
+          <p> 강아지를 좋아하고, '하루'라는 이름의 강아지와 함께 살아요 </p>
+          <div class="image1">
+            <img src="haru.jpg"  width="400px" >
+        </div>
+          <br>
+          <br>
+          <p><strong> 천안에 거주중입니다.</strong> <br> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.570455061499!2d127.1150651489595!3d36.82881179150778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b27daea79d625%3A0x96d1ab53c970163d!2z7Lap7LKt64Ko64-EIOyynOyViOyLnCDshJzrtoHqtawg67Cx7ISd64-ZIDQzOS0y!5e0!3m2!1sko!2skr!4v1621053830015!5m2!1sko!2skr" 
+            width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+          </article>
+
+          <nav>
+            <ul class="pager">
+              <li><a href="index.html">Previous</a></li>        
+              <li><a href="3.html">Next</a></li>
+            </ul>
+          </nav>
+
+          <!--V2 footer를 넣어 연락할 수 있는 방법과 제 github 링크를 걸었습니다.. -->
+          <footer>
+            <div class="contact"> 
+              <div class="col-lg-2>">
+                <a class="btn bg-light" href="http://www.instagram.com/chaehouman_98" role="button"><i class="fa fa-instagram" aria-hidden="true"></i>  chaehouman_98</a>
+                <a class="btn bg-light" href="https://github.com/cogh7828" role="button"><i class="fa fa-github" aria-hidden="true"></i>  cogh7828</a>
+              </div>                            
+            </div>
+        </footer>
+
+         </div>
+    </body>
+</html>
